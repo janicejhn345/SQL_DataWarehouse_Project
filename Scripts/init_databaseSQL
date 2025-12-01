@@ -1,0 +1,19 @@
+/*
+============================
+CREATE DATABASE AND SCHEMAS
+============================
+Here we create the database DataWarehouse along with the schemas for the database.
+*/
+
+--Create a new database DataWarehouse
+CREATE DATABASE DataWarehouse;
+
+--Using the database DataWarehouse
+USE DataWarehouse;
+
+--Creating the schema for the database
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
